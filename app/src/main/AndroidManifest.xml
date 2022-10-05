@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Umc_2nd_mission">
-        <activity android:name=".MainActivity"
+        <activity android:name=".PlayActivity"></activity>
+        <activity android:name=".SearchActivity" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
